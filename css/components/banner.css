@@ -1,0 +1,83 @@
+.banner {
+  background-image: url("../../images/background.png");
+  color: aliceblue;
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+}
+
+.banner .container .button {
+  background-color: #1EDD88;
+  padding: 10px 20px;
+  color: aliceblue;
+  font-size: small;
+  border-radius: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.banner .container .button:hover {
+  background-color: #2eac73;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card img {
+  width: 100px;
+}
+
+.card h3 {
+  font-size: small;
+}
+
+.card p {
+  font-size: smaller;
+}
+
+.card {
+  border: solid #F0F0F0;
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: large;
+}
+
+.footer {
+  background-color: #2C2B2B;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer .container p {
+  color: #6B6C62;
+  text-align: center;
+}
+
+.footer .container i {
+  color: #01eb15;
+  text-align: center;
+}
+
+.footer .container img {
+  width: 10px;
+}
+
+.footer .container .icons {
+  text-align: center;
+  padding-top: 10px;
+}
